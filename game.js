@@ -539,6 +539,7 @@ BigAlien = function () {
 
     this.delayBeforeBullet -= delta;
     if (this.delayBeforeBullet <= 0) {
+		
       this.delayBeforeBullet = 22;
       for (var i = 0; i < this.bullets.length; i++) {
         if (!this.bullets[i].visible) {
